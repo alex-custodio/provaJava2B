@@ -4,14 +4,8 @@ import java.util.Scanner;
 
 public class Direcao {
     public static Scanner input = new Scanner(System.in);
-    //1 - Cadastrar Equipamentos
-    //2 - Exibir Setores
-        // Exibir Equipamentos Em Manutenção
-        // Exibir Equipamentos Em Funcionamento
-    //3 - Mudar Situação de Equipamento
-    //4 - Buscar Equipamento por nome e receber os dados
-    //5 - Remover Equipamento
-    //6 - Sair
+    // Estou utilizando o print com \n por gosto pessoal, prefiro dessa forma. Essa questão tem várias interpretações
+    // e formas de resolver. Não existe uma definitiva, então resolvi fazer dessa forma.
     public static void main(String[] args){
         Equipamento[] equipamentos;
         int escolha;
